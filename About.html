@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Campus Eats</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            background-image: url('campus-dining-background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        header {
+            background-color: rgba(255, 107, 107, 0.9);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        .header-image {
+            width: 100px; 
+            height: 100px;
+            margin: 0 auto 15px;
+            display: block;
+            border-radius: 50%; 
+            border: 3px solid white; 
+            object-fit: cover;
+            background-color: white;
+        }
+        .logo {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+        }
+        nav {
+            background-color: rgba(51, 51, 51, 0.9);
+            padding: 15px 0;
+            position: relative;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff6b6b;
+        }
+        .about-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 60vh;
+            padding: 40px 20px;
+        }
+        .about-content {
+            max-width: 800px;
+            width: 100%;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.92);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            backdrop-filter: blur(3px);
+        }
+        .about-content h2 {
+            color: #ff6b6b;
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 2em;
+        }
+        .about-content p {
+            margin-bottom: 20px;
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+        .about-content ul {
+            margin: 25px 0;
+            padding-left: 20px;
+        }
+        .about-content li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        .contact-info {
+            background-color: rgba(255, 107, 107, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            border-left: 4px solid #ff6b6b;
+        }
+        .contact-info h3 {
+            color: #ff6b6b;
+            margin-top: 0;
+        }
+        footer {
+            background-color: rgba(51, 51, 51, 0.9);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav li {
+                margin: 5px 0;
+            }
+            .about-content {
+                padding: 20px;
+            }
+        }
+        @media (max-width: 480px) {
+            .header-image {
+                width: 80px;
+                height: 80px;
+            }
+            .logo {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="main-logo.jpg" alt="Campus Eats Logo" class="header-image">
+        <div class="logo">CAMPUS-EATS</div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+    
+    <div class="about-container">
+        <div class="about-content">
+            <h2>About Campus-Eats</h2>
+            <p>At Campus-Eats, we believe that an effective delivery system to the comfort of students and staff members is our top priority. A quick and reliable once-in-a-lifetime service has come to the rescue where anything will be delivered safely with 0% defects and dissatisfaction.</p>
+            
+            <p>Founded in April 2025 by a passionate group of Studentpreneurs, we are in our introductory phase across all South African universities. To date, we have assisted 100+ of our target market within different institutions of higher learning.</p>
+            
+            <h3>Our Core Values:</h3>
+            <ul>
+                <li><strong>Reliability:</strong> Consistent service you can count on</li>
+                <li><strong>Timely Delivery:</strong> Fast service that respects your schedule</li>
+                <li><strong>Affordability:</strong> Student-friendly prices</li>
+                <li><strong>Quality Service:</strong> Excellence in every delivery</li>
+            </ul>
+            
+            <p>Though we haven't even been in business for 2 months, we have already exceeded our initial target numbers predicted at the start of the business.</p>
+            
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>For more information, contact us on:</p>
+                <p><strong>WhatsApp/Call:</strong><br>
+                Amahle - 068 182 9216<br>
+                Ronaldo - 083 249 9964</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Campus Eats. All rights reserved.</p>
+        <p>By Lebogang Malatjie</p>
+    </footer>
+</body>
+</html>
